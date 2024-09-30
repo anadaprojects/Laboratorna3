@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 940px; /* Розмір контейнера як на макеті */
+    margin: 0 auto;
+    border: 1px solid #ccc; /* Для зручності бачити межі */
+    padding: 10px;
+}
+
+.row {
+    overflow: hidden; /* Для виправлення проблем з float */
+}
+
+.img, .text {
+    float: left;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    
+}
+
+.img {
+    width: 50%; /* Відповідно до макету */
+    height: 180px;
+    background-color: #4a90e2;
+}
+
+.text {
+    width: 50%; /* Відповідно до макету */
+    height: 180px;
+    background-color: #50e3c2;
+}
+
+.full-width {
+    width: 100%; /* Для другого блоку тексту, що займає всю ширину */
+    height: 180px; /* Як на макеті */
+    background-color: #7ed321;
+}
+
+.full-img {
+    width: 100%; /* Аналогічний розмір для нижнього блоку Img */
+    height: 180px;
+    background-color: #4a90e2; /* Колір той самий для обох Img блоків */
+}
+
